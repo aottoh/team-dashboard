@@ -1,0 +1,42 @@
+.TimeSelect {
+
+    /*Display*/
+    display: flex;
+    flex-flow: column;
+    
+
+
+    /*Typography*/
+    text-align: center;
+}
+
+
+.TimeSelect label {
+    font-size: 14px;
+    color: rgba(62, 63, 64, 1);
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    line-height: 2em;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.TimeSelect input {
+    max-width: 150px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: rgba(97, 95, 94, 0);
+    color: rgba(19, 37, 54, 1);
+    border: 1px solid rgba(97, 95, 94, 0);
+    border-radius: 15px;
+    overflow: auto ;
+}
+
+.TimeSelect input:hover {
+    background-color: rgba(94,94,94,0.65);
+    cursor: pointer;
+    transition: 0.75s;
+}

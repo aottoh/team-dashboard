@@ -1,0 +1,26 @@
+.teamoption {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.teamoption li {
+    display: inline-flex;
+    min-width: 200px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+
+.teamoption li:hover{
+    background-color: rgba(97, 95, 94, 0.25);
+    transition: 0.75s; 
+    cursor: pointer;
+}

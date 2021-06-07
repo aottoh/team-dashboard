@@ -1,0 +1,19 @@
+.ProjectViewer {
+
+    /*Position*/
+    margin-top: 170px;
+
+    /*Dimensions*/
+    min-width: 765px;
+    max-width: 765px;
+
+}
+
+.ProjectViewer-row1{
+    
+    /*Display*/
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;  
+
+}

@@ -1,0 +1,57 @@
+.TeamCalendar {
+
+    /*Position*/
+    margin-top: 260px;
+
+    /*Dimension*/
+    max-width: 746px;
+    min-width: 746px; 
+}
+
+.TeamCalendar td {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.td-project {
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.td-event {
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.td-date {
+    max-width: 130px;
+    min-width: 130px;
+}
+
+.td-link {
+    max-width: 130px;
+    min-width: 130px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.td-link:hover {
+    background-color: rgba(19, 37, 54, 1);
+    transition: 0.5s;
+    color:white;
+    cursor: pointer;
+}
+
+.tablebody {
+    min-height: 310px;
+    max-height: 310px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    border-radius: 7px;
+}
+
+.tablebody::-webkit-scrollbar {
+    display: none;
+  }

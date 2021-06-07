@@ -1,0 +1,53 @@
+.ProjectFilter{
+    /*Display Settings*/
+    display: flex;
+    flex-direction: column;
+
+    /*Dimensions*/
+    min-width: 200px;
+    max-width: 200px;
+
+}
+
+.ProjectFilter label {
+
+    /*Styling*/
+    color: rgba(62, 63, 64, 1);
+
+    /*Typography*/
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    line-height: 2em;
+    font-weight: 700;
+
+}
+
+.ProjectFilter select{
+    
+    /*Dimensions*/
+    padding: 10px 10px;
+
+    /*Styling*/
+    background-color: rgba(97, 95, 94, 0);
+    color: rgba(19, 37, 54, 1);
+    border: 1px solid rgba(97, 95, 94, 0);
+    border-radius: 15px;
+
+    /*Typography*/
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    font-weight: 900;
+    font-size: 1em;
+  
+}
+
+.ProjectFilter select:hover{
+
+    /*Style*/
+    background-color: rgba(94,94,94,0.65);
+    
+    /*Effects*/
+    transition: 0.75s;
+    cursor: pointer;
+}

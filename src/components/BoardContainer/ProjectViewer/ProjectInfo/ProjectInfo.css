@@ -1,0 +1,14 @@
+.ProjectInfo {
+
+    /*Dimensions*/
+    min-width: 436px;
+    max-width: 436px;
+}
+
+.tableContainer {
+
+    /*Display*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}

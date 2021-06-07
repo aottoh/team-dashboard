@@ -1,0 +1,8 @@
+.HeaderNavFilters{
+    /*Display Settings*/
+    display: inline-flex;
+    justify-content: space-around;
+
+    /*Dimensions*/
+    width: 100%;
+}

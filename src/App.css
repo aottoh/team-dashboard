@@ -1,38 +1,118 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.infocard {
+
+  /*Display Settings*/
+    flex-flow: column;
+    justify-content: flex-start;
+
+    /*Positioning*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /*Dimensions*/
+    padding: 5px 10px;
+
+    /*Styling*/
+    background-color: rgba(97, 95, 94, 0.1);
+    border-radius: 15px;
+
+    /*Typography*/
+
+    
+    /*Effects*/
+    transition: 1s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.infocard:hover {
+
+  /*Styling*/
+  background-color: rgba(97, 95, 94, 0.27);
+
+  /*Effects*/
+  transition: 1s;
+}
+
+
+.infocard h1 {
+
+  /*Display*/
+  display: flex;
+
+  /*Position*/
+  margin-top: 5px;
+  margin-bottom: 2px;
+
+  /*Typography*/
+  color: black;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.infocard h2 {
+
+  /*Display*/
+  display: flex;
+  
+  /*Position*/
+  margin-top: 5px;
+  margin-bottom: 2px;
+
+  /*Typography*/
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.infocard p {
+
+  /*Typography*/
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  word-spacing: 0.01;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+table {
+  padding-left: 15px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.35);
+  height: 30px;
+  width: 100%;
+
+  /*Position*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  /*Styling*/
+  
+}
+
+td {
+
+  /*Dimensions*/
+  padding: 3px 0;
+
+  /*Typography*/
+  font-size: 12px;
+
+}
+
+tr {
+  /*Dimensions*/
+  padding: 3px 0;
+  
+}
+
+thead {
+  
+  font-weight: 700;
 }

@@ -1,0 +1,19 @@
+.ProjectFinancials {
+    margin-top: 10px;
+}
+
+.ProjectFinancials td{
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.table-total {
+    font-weight: 700;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.td-financials {
+    text-align: right;
+}

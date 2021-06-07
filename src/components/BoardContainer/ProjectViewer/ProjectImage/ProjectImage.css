@@ -1,0 +1,78 @@
+.ProjectImage {
+
+    /*Display Settings*/
+    position: relative;
+
+    /*Positioning*/
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    
+    /*Dimensions*/
+    max-width: 304px;
+    min-width: 304px;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+
+    /*Styling*/
+    background-color: rgba(97, 95, 94, 0.1);    
+    border-radius: 15px;
+    border: 1px solid rgba(97, 95, 94, 0.25);
+}
+
+.ProjectImage img {
+
+    /*Display Settings*/
+    z-index: 1;
+
+    /*Positioning*/
+    margin: 0;
+
+    /*Dimensions*/
+    max-width: 304px;
+    min-width: 304px;
+    padding:0;
+    
+    /*Effects*/
+    overflow: hidden;
+}
+
+.ProjectImage figcaption {
+
+    /*Positioning*/
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+    /*Dimensions*/
+    height: 100%;
+    max-width: 304px;
+    min-width: 304px;
+    min-height: 210px;
+    max-height: 210px;
+
+    /*Styling*/
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border-radius: 10p  x;
+
+
+    /*Typography*/
+    text-align: center;
+    line-height: 6em;
+
+    /*Effects*/
+    transition: 0.75s;
+}
+
+.ProjectImage figcaption:hover {
+    background-color: rgba(255,255,255,0.75);
+    color: black;
+    transition: 0.75s;
+}
+
+.ProjectImage a {
+    color: inherit;
+    text-decoration: inherit;
+}
