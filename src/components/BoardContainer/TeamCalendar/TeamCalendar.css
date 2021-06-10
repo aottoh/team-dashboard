@@ -12,6 +12,7 @@
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
+    line-height: 1.75em;
 }
 
 .td-project {
@@ -44,15 +45,27 @@
     cursor: pointer;
 }
 
+.tablehead {
+    margin-top: 10px;
+}
+
 .tablebody {
-    min-height: 310px;
+    min-height: 270px;
     max-height: 310px;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     border-radius: 7px;
+    margin-top: 3px;
 }
 
 .tablebody::-webkit-scrollbar {
     display: none;
   }
+
+.td-link-header {
+    max-width: 130px;
+    min-width: 130px;
+    border-radius: 15px;
+    font-weight: 700;
+}

@@ -23,9 +23,9 @@ export function UpcomingEvents(props){
     for(let i = 0; i < 5; i++){
         arrUpcoming.push(
         <tr key={i}>
-            <td>{arrSortedCal[i]._name}</td>
-            <td>{arrSortedCal[i]._event}</td>
-            <td>{arrSortedCal[i]._date}</td>
+            <td className="UE-minor">{arrSortedCal[i]._name}</td>
+            <td className="UE-minor">{arrSortedCal[i]._event}</td>
+            <td className="UE-minor">{arrSortedCal[i]._date}</td>
         </tr>)
     }
 
@@ -35,19 +35,18 @@ export function UpcomingEvents(props){
                 <h1>Upcoming Events</h1>
                 <img type="img/png" src={iconUpcomingEvents}/>
             </div>
-        <table>
-            <thead>
-                <tr>
-                    <td>Project</td>
-                    <td>Event</td>
-                    <td>Date</td>
-                </tr>
-            </thead>
-            <tbody>
-                {arrUpcoming}
-            </tbody>
-        </table>
-            
+            <table>
+                <thead>
+                    <tr>
+                        <td className="UE-header">Project</td>
+                        <td className="UE-header">Event</td>
+                        <td className="UE-header">Date</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {arrUpcoming}
+                </tbody>
+            </table> 
         </div>
     )
 }

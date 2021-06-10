@@ -5,3 +5,20 @@
     max-width: 380px;
     min-width: 380px;
 }
+
+.UpcomingEvents table {
+    margin-top: 10px;
+}
+
+.UpcomingEvents td {
+
+    /*Typography*/
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.75em;
+    
+}
+
+.UE-minor {
+    color: rgba(0,0,0,0.85)
+}

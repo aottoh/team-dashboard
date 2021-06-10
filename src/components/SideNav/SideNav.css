@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 
     /*Positioning*/
     position: fixed;
@@ -14,8 +15,8 @@
     /*Dimensions*/
     max-width: 200px;
     min-width: 200px;
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 450px;
+    max-height: 450px;
 
     /*Styling*/
     border-radius: 25px;
@@ -23,3 +24,36 @@
     overflow: auto;
     background-color: white;
 }
+
+.aottoh {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin-top: 50px;
+}
+/*
+.aottoh h2 {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    transition: 0.75d;
+}
+
+.aottoh h2:hover {
+    color: black;
+    transition: 0.75s;
+}
+
+.aottoh img {
+    width: 25px;
+    height: auto;
+}*/
+
+/*
+<br />
+            <div className="aottoh">
+                <img type="image/svg" src={iconGithub} />
+                <h2>AottoH</h2>
+            </div>
+*/

@@ -16,7 +16,7 @@ export function TeamCalendar(props) {
                             <th className="td-project">Project</th>
                             <th className="td-event">Event</th>
                             <th className="td-date">Date</th>
-                            <th className="td-link">Link</th>
+                            <th className="td-link-header">Link</th>
                         </tr>
                     </thead>
                 </table>

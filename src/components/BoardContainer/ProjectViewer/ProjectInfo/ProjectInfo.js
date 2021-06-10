@@ -5,17 +5,17 @@ export function ProjectInfo(props) {
     return(
         <div className="ProjectInfo infocard">
             <h1>{props.projectDE}</h1>
-            <h2>{props.projectEN}</h2>
+            <h2 id="ProjectInfo-subheader">{props.projectEN}</h2>
             <div className="tableContainer">
                 <InfoTable 
-                    title="Project Numbers"
+                    title="Identifiers"
                     idProp="table-projectNumbers" 
                     pnRight1={props.pnRight1}
                     pnRight2={props.pnRight2}
                     pnRight3={props.pnRight3}
                     pnRight4={props.pnRight4}/>
                 <InfoTable 
-                    title="Project Owners"
+                    title="Owners"
                     idProp="table-projectOwners" 
                     pfRight1={props.poRight1}
                     pfRight2={props.poRight2}

@@ -135,6 +135,10 @@ function App() {
         newGrants.innerHTML = element._ve.toLocaleString('de', {style: 'currency', currency: 'EUR'});
         newSBF.innerHTML = element._sbf.toLocaleString('de', {style: 'currency', currency: 'EUR'});
 
+        newBMZ.classList.add("td-finminor")
+        newMeasure.classList.add("td-finminor")
+        newGrants.classList.add("td-finminor")
+        newSBF.classList.add("td-finminor")
         newMeasure.classList.add('td-financials');
         newGrants.classList.add('td-financials');
         newSBF.classList.add('td-financials');

@@ -2,8 +2,30 @@
 
     /*Dimensions*/
     max-width: 180px;
+    min-width: 180px;
+    margin: 0;
+    color: rgba(0,0,0,0.75);
+    padding: 3px;
+    font-style: italic;
 }
 
+.InfoTable td {
+    line-height: 1.2em;
+}
+
+
 #table-projectOwners {
-    max-width: 175px;
+    max-width: 170px;
+    min-width: 170px;
+}
+
+.InfoTable-main {
+    font-weight: 700;
+    font-style: none;
+    color: black;
+}
+
+.InfoTable-left {
+    text-align: left;
+    padding-left: 10px;
 }

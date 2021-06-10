@@ -14,6 +14,8 @@
     /*Display*/
     display: flex;
     flex-flow: row;
-    align-items: flex-start;  
+    align-items: center;  
 
+    /*Dimensions*/
+    max-height: 210px;
 }

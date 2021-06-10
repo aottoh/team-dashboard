@@ -12,7 +12,7 @@
     justify-content: flex-start;
 
     /*Positioning*/
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
 
     /*Dimensions*/
@@ -53,6 +53,8 @@
   color: rgba(97, 95, 94, 1);
   font-weight: 700;
   font-size: 20px;
+
+  
 }
 
 .infocard h2 {
@@ -80,6 +82,7 @@
   font-weight: 100;
   text-align: left;
   padding: 5px 10px;
+  color: rgba(0,0,0,0.75);
 }
 
 .infocard ul {
@@ -99,6 +102,10 @@
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
+
+  /*Styling*/
+
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 
@@ -119,8 +126,8 @@ table {
   width: 100%;
 
   /*Position*/
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /*margin-top: 10px;
+  margin-bottom: 10px;*/
 
   /*Styling*/
   
