@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/team-dashboard/static/css/main.27bf1f59.chunk.css",
-    "main.js": "/team-dashboard/static/js/main.8793ffc6.chunk.js",
-    "main.js.map": "/team-dashboard/static/js/main.8793ffc6.chunk.js.map",
+    "main.css": "/team-dashboard/static/css/main.be6aa015.chunk.css",
+    "main.js": "/team-dashboard/static/js/main.99547dc4.chunk.js",
+    "main.js.map": "/team-dashboard/static/js/main.99547dc4.chunk.js.map",
     "runtime-main.js": "/team-dashboard/static/js/runtime-main.5ac28e91.js",
     "runtime-main.js.map": "/team-dashboard/static/js/runtime-main.5ac28e91.js.map",
     "static/js/2.f8893a68.chunk.js": "/team-dashboard/static/js/2.f8893a68.chunk.js",
     "static/js/2.f8893a68.chunk.js.map": "/team-dashboard/static/js/2.f8893a68.chunk.js.map",
     "index.html": "/team-dashboard/index.html",
-    "static/css/main.27bf1f59.chunk.css.map": "/team-dashboard/static/css/main.27bf1f59.chunk.css.map",
+    "static/css/main.be6aa015.chunk.css.map": "/team-dashboard/static/css/main.be6aa015.chunk.css.map",
     "static/js/2.f8893a68.chunk.js.LICENSE.txt": "/team-dashboard/static/js/2.f8893a68.chunk.js.LICENSE.txt",
     "static/media/apples.91fb6d94.jpg": "/team-dashboard/static/media/apples.91fb6d94.jpg",
     "static/media/carrots.d4b20c7d.jpg": "/team-dashboard/static/media/carrots.d4b20c7d.jpg",
@@ -16,12 +16,15 @@
     "static/media/description.90099915.png": "/team-dashboard/static/media/description.90099915.png",
     "static/media/drumstick.58e2238d.jpg": "/team-dashboard/static/media/drumstick.58e2238d.jpg",
     "static/media/financials.06ffee84.png": "/team-dashboard/static/media/financials.06ffee84.png",
+    "static/media/github.255db585.svg": "/team-dashboard/static/media/github.255db585.svg",
+    "static/media/identifiers.1b86b060.png": "/team-dashboard/static/media/identifiers.1b86b060.png",
     "static/media/links.eb031d93.png": "/team-dashboard/static/media/links.eb031d93.png",
     "static/media/mango.d727886e.jpg": "/team-dashboard/static/media/mango.d727886e.jpg",
     "static/media/news.77ee6c97.png": "/team-dashboard/static/media/news.77ee6c97.png",
     "static/media/okra.35932a0c.jpg": "/team-dashboard/static/media/okra.35932a0c.jpg",
     "static/media/onboardingpackage.34e66bc2.png": "/team-dashboard/static/media/onboardingpackage.34e66bc2.png",
     "static/media/overview.ca478f42.png": "/team-dashboard/static/media/overview.ca478f42.png",
+    "static/media/owners.e731eaa8.png": "/team-dashboard/static/media/owners.e731eaa8.png",
     "static/media/papaya.401a5fb6.jpg": "/team-dashboard/static/media/papaya.401a5fb6.jpg",
     "static/media/pears.12ffe913.jpg": "/team-dashboard/static/media/pears.12ffe913.jpg",
     "static/media/plums.4fd38b04.jpg": "/team-dashboard/static/media/plums.4fd38b04.jpg",
@@ -33,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ac28e91.js",
     "static/js/2.f8893a68.chunk.js",
-    "static/css/main.27bf1f59.chunk.css",
-    "static/js/main.8793ffc6.chunk.js"
+    "static/css/main.be6aa015.chunk.css",
+    "static/js/main.99547dc4.chunk.js"
   ]
 }
