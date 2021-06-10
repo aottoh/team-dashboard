@@ -14,7 +14,7 @@ let targetString = targetDate.toISOString().slice(0, 10);
 
 function App() {
 
-  const [board, setBoard] = useState('Project Viewer');
+  const [board, setBoard] = useState('Team Overview');
   const [allowedProjects, setAllowedProjects] = useState(['All', ...new Set(PROJECTS.map(element => element._name))]);
   const [country, setCountry] = useState('All');
   const [sector, setSector] = useState('All');
@@ -121,8 +121,6 @@ function App() {
       }
 
       let projectObject = PROJECTS.filter(element => element._name === selectedProject);
-
-      console.log(projectObject.length);
 
       projectObject.forEach(element => {
 

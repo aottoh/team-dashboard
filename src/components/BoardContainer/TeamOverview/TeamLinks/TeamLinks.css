@@ -1,0 +1,80 @@
+.TeamLinks {
+
+    /*Dimensions*/
+    
+}
+
+
+
+.largeicon {
+
+    /*DisplaySettings*/
+
+    /*Dimensions*/
+    width: 60px;
+
+    /*Styling*/
+}
+
+.TeamLinks span {
+
+    /*Dimenstions*/
+    width: 200px;
+    padding-left: 50px;
+
+    /*Typography*/
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-align: left;
+}
+
+.teamlink-container {
+
+    /*Display Settings*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    /*Positioning*/
+    margin: 7px;
+}
+
+.linkrow {
+
+    /*Display Settings*/
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    /*Positioning*/
+    margin: 5px;
+
+    /*Dimenstions*/
+    padding: 7px;
+    min-width: 300px;
+    max-width: 300px;
+
+    /*Styling*/
+    border-radius: 15px;
+}
+
+.linkrow:hover {
+    background-color: rgba(19, 37, 54, 1);
+    transition: 0.5s;
+    color:white;
+    cursor: pointer;
+}
+
+.mainlinks{
+    /*Dimensions*/
+    max-width: 340x;
+    min-width: 340px;
+}
+
+.sublinks {
+
+    /*Dimensions*/
+    max-width: 360px;
+    min-width: 360px;
+}

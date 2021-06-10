@@ -1,0 +1,20 @@
+.TeamOverview {
+
+    /*Display Settings*/
+    display: flex;
+    flex-flow: column;
+    
+    /*Positioning*/
+    margin-top: 151px;
+
+    /*Dimensions*/
+    max-width: 769px;
+}
+
+.torow {
+    /*Display Settings*/
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+

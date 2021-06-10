@@ -1,6 +1,7 @@
 import './BoardContainer.css';
 import { ProjectViewer } from './ProjectViewer/ProjectViewer';
 import { TeamCalendar } from './TeamCalendar/TeamCalendar';
+import { TeamOverview } from './TeamOverview/TeamOverview'
 
 export function BoardContainer(props) {
 
@@ -15,6 +16,13 @@ export function BoardContainer(props) {
             return(
                 <div className="BoardContainer">
                     <TeamCalendar />
+                </div>
+            )
+            break;
+        case "Team Overview":
+            return(
+                <div className="BoardContainer">
+                    <TeamOverview />
                 </div>
             )
         default:

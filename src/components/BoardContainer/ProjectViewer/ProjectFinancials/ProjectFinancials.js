@@ -1,11 +1,15 @@
 import './ProjectFinancials.css'
 import { PROJECTS } from '../../../../data/data';
+import iconFinancials from '../../../../data/resources/icons/financials.png';
 
 export function ProjectFinancials(props) {
 
     return(
         <div className="ProjectFinancials infocard">
-            <h1>Project Financials</h1>
+            <div className="infoheader">
+                    <h1>Financials</h1>
+                    <img type="img/png" src={iconFinancials}/>
+                </div>
             <table>
                 <thead>
                     <tr>

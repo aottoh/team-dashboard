@@ -47,11 +47,12 @@
   /*Position*/
   margin-top: 5px;
   margin-bottom: 2px;
+  margin-left: 10px;
 
   /*Typography*/
-  color: black;
-  font-weight: 400;
-  font-size: 24px;
+  color: rgba(97, 95, 94, 1);
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .infocard h2 {
@@ -64,21 +65,50 @@
   margin-bottom: 2px;
 
   /*Typography*/
-  color: black;
-  font-weight: 100;
-  font-size: 18px;
+  color: rgba(97, 95, 94, 1);
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .infocard p {
 
   /*Typography*/
   font-size: 14px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.025em;
   word-spacing: 0.01;
   line-height: 1.5em;
   font-weight: 100;
   text-align: left;
   padding: 5px 10px;
+}
+
+.infocard ul {
+  /*Typography*/
+  font-size: 14px;
+  letter-spacing: 0.025em;
+  word-spacing: 0.01;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+}
+
+.infoheader {
+
+  /*Display Settings*/
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.infoheader img {
+  display: flex;
+  width: 36px;
+
+  /*Dimensions*/
+  height: auto;
+  
 }
 
 table {

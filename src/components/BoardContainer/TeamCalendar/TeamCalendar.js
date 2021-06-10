@@ -1,10 +1,14 @@
 import './TeamCalendar.css'
+import iconCalendar from '../../../data/resources/icons/upcomingevents.png'
 
 export function TeamCalendar(props) {
 
     return(
         <div className="TeamCalendar infocard">
-            <h1>Past and Upcoming Team Portfolio Events</h1>
+            <div className="infoheader">
+                    <h1>Past and Upcoming Portfolio Events</h1>
+                    <img type="img/png" src={iconCalendar}/>
+                </div>
             <div className="tablehead">
                 <table>
                     <thead>
